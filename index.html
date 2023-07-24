@@ -20,26 +20,92 @@
                 </div>
                 <div class="tourism-card">
                     <!-- modify this form HTML and place wherever you want your form -->
-                    <button id="submitBtn" class="button" href="contactme.html">
+                    <button class="button" onclick="display('sectioncontactme')">
                         నన్ను సంప్రదించండి
                     </button>
                     <button class="button" onclick="display('sectionproductdetails')">
                         పూర్తి వివరాలకు
                     </button>
                     
-  <script>
-    // JavaScript code for handling form submission and redirection
-    document.getElementById("submitBtn").addEventListener("click", function(event) {
-      event.preventDefault(); // Prevent the form from submitting normally
-      // You can add form validation here if needed
-
-      // Redirect to another page after form submission
-      window.location.href = "contactme.html";
-    });
-  </script>
                 </div>
             </div>
         </div>
+        
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    input[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+  <div id="sectioncontactme" class="container">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mleydwrq" method="post">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+
         <div id="sectionproductdetails">
             <div class="favourite-places-bg-container">
                 <h1 class="favourite-places-heading">Products</h1>
