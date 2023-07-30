@@ -227,17 +227,18 @@ body {
 @media screen and (max-width:760px) {
     .button-1 {
     color: #00126b;
-    font-weight: 700;
+    font-weight: 500;
     text-content:center;
     background-image: radial-gradient(#f7bc48, #b57902);
     height: 36px;
     border-width: 0px;
     border-radius: 20px;
     margin-bottom: 5px;
+    margin-right:10px;
 }
 .button {
     color: #00126b;
-    font-weight: 700;
+    font-weight: 500;
     background-image: radial-gradient(#5ef139, #b57902);
     height: 36px;
     border-width: 0px;
@@ -248,7 +249,7 @@ body {
     margin-top:10px;
     font-family: "Sans-Serif";
     color: blue;
-    font-size:15px;
+    font-size:10px;
     font-weight: bold;
     margin-right: 10px;
 }
