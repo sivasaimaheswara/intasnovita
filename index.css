@@ -247,6 +247,19 @@ body {
     margin-bottom: 5px;
     margin-right:20px:
 }
+    .tourism-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    overflow: auto;
+}
+
 .main-heading {
     margin-top:10px;
     font-family: "Sans-Serif";
