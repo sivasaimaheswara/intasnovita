@@ -20,12 +20,18 @@
                 </div>
                 <div class="tourism-card">
                     <!-- modify this form HTML and place wherever you want your form -->
-                    <button class="button" onclick="display('sectioncontactme')">
+                    <div class="d-flex flex-row justify-content-between">
+                    <p class="main-heading">మీ సలహాలు, సూచనలు మరియు సమస్యల పరిష్కారం కొరకు</p>
+                    <button class="button-1 mt-1" onclick="display('sectioncontactme')">
                         నన్ను సంప్రదించండి
                     </button>
-                    <button class="button" onclick="display('sectionproductdetails')">
+                    </div>
+                    <div class="d-flex flex-row justify-content-between">
+                    <P class="main-heading" style="color: red;">ఎప్పుడు ఏ మందు వాడాలో పూర్తి వివరాలకు</P>
+                    <button class="button-1" onclick="display('sectionproductdetails')">
                         పూర్తి వివరాలకు
                     </button>
+                    </div>
                     
                 </div>
             </div>
@@ -40,6 +46,7 @@
     }
 
     .container {
+      background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-blue-gradient-electronic-programming-01011-creative-background-picture-image_1000808.jpg');
       max-width: 400px;
       margin: 0 auto;
       padding: 20px;
@@ -53,7 +60,8 @@
     }
 
     label {
-      display: block;
+      display:black;
+      color: red;
       font-weight: bold;
       margin-bottom: 5px;
     }
@@ -67,14 +75,16 @@
       border-radius: 4px;
       box-sizing: border-box;
     }
-
+    .contact {
+         color: rgb(94, 255, 0);
+    }
     textarea {
       resize: vertical;
       min-height: 100px;
     }
 
     input[type="submit"] {
-      display: block;
+      display:black;
       width: 100%;
       padding: 10px;
       background-color: #4CAF50;
@@ -89,14 +99,14 @@
     }
   </style>
   <div id="sectioncontactme" class="container">
-    <h2>Contact Me</h2>
+    <h2 class="contact">Contact Me</h2>
     <form action="https://formspree.io/f/mleydwrq" method="post">
       <div class="form-group">
-        <label for="name">Name:</label>
+        <label for="name">మీ పేరు :</label>
         <input type="text" id="name" name="name" required>
       </div>
       <div class="form-group">
-        <label for="message">Message:</label>
+        <label for="message">మీ సమస్య మరియు చిరునామా:</label>
         <textarea id="message" name="message" required></textarea>
       </div>
       <div class="form-group">
@@ -104,8 +114,6 @@
       </div>
     </form>
   </div>
-
-
         <div id="sectionproductdetails">
             <div class="favourite-places-bg-container">
                 <h1 class="favourite-places-heading">Products</h1>

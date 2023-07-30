@@ -61,21 +61,34 @@ body {
     overflow: auto;
 }
 
+.button-1 {
+    color: #00126b;
+    font-weight: 700;
+    background-image: radial-gradient(#f7bc48, #b57902);
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
 .button {
     color: #00126b;
     font-weight: 700;
-    background-image: radial-gradient(#a87902, #e31d12);
+    width: 150px;
+    background-image: radial-gradient(#5ef139, #b57902);
     height: 36px;
     border-width: 0px;
     border-radius: 20px;
     margin-bottom: 5px;
 }
 
+
 .main-heading {
-    margin-top: 5px;
+    margin-top:10px;
     font-family: "Sans-Serif";
     color: blue;
-    font-size: 25px;
+    font-size:15px;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 .paragraph {
@@ -101,6 +114,7 @@ body {
     font-family: "Roboto";
     font-size: 28px;
     font-weight: bold;
+    margin-top:20px;
 }
 
 .favourite-place-card-container-1 {
