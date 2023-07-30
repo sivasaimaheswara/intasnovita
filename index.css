@@ -64,6 +64,8 @@ body {
 .button-1 {
     color: #00126b;
     font-weight: 700;
+    width:150px;
+    text-content:center;
     background-image: radial-gradient(#f7bc48, #b57902);
     height: 36px;
     border-width: 0px;
