@@ -234,8 +234,8 @@ body {
     height: 36px;
     border-width: 0px;
     border-radius: 20px;
-    margin-bottom: 5px;
-    margin-right:10px;
+    margin-bottom:5px;
+    margin-right:20px;
 }
 .button {
     color: #00126b;
@@ -245,7 +245,7 @@ body {
     border-width: 0px;
     border-radius: 20px;
     margin-bottom: 5px;
-    margin-left:10px:
+    margin-right:20px:
 }
 .main-heading {
     margin-top:10px;
