@@ -224,7 +224,28 @@ body {
     padding: 15px;
 
 }
+@media screen and (max-width:760px) {
+    .button-1 {
+    color: #00126b;
+    font-weight: 700;
+    text-content:center;
+    background-image: radial-gradient(#f7bc48, #b57902);
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.button {
+    color: #00126b;
+    font-weight: 700;
+    background-image: radial-gradient(#5ef139, #b57902);
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
 
+}
 @media screen and (min-width:760px) {
     .favourite-places-bg-container {
         height: 100vh;
